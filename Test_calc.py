@@ -10,5 +10,10 @@ class TestCase(unittest.TestCase):
         self.assertEqual(calc.add(4,2),6)
         self.assertEqual(calc.add(2,2),4)
 
+    def test_div(self):
+        self.assertEqual(calc.div(4,2),2)
+        self.assertEqual(calc.div(6,2),3)
+
+
 
 
